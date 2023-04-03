@@ -12,7 +12,8 @@ body{
     display: flex;
     align-items:center;
     justify-content: center;
-    background-color:  hsl(217, 54%, 11%);
+    background-color:hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
 }
 main{
     width: 300px;
@@ -34,7 +35,7 @@ main{
 #image div{
     position: absolute;
     top: 0;
-    background-color: hsl(178, 100%, 50%, 60%);
+    background-color: hsl(178, 100%, 50%);
     width: 100%;
     height: calc(100% - 4px);
     z-index: 999;
@@ -63,37 +64,39 @@ main{
     font-weight: 600;
     color:  hsl(0, 0%, 100%);
     font-size: 19px;
-
+    cursor: pointer;
+}
+.heading:hover{
+    color:  hsl(178, 100%, 50%);
 }
 p{
     font-size: 16px;
-    color: rgb(163, 180, 193);
-    /* border: 1px solid green; */
     font-weight: 300;
     text-align: left;
 }
 .count{
-    border: 1px solid green;
     display: flex;
     justify-content:space-between;
     padding: 10px 0;
 }
 .eth{
-    border: 1px solid #000;
     display: flex;
     justify-content:space-between;
 }
+#eth{
+    color:  hsl(178, 100%, 50%);
+}
 .days{
-    border: 1px solid #000;
     display: flex;
     justify-content:space-between;
-
+}
+.icon{
+    margin-right: 5px;
 }
 hr {
     border: 0;
     height: 1px;
-    background: rgb(163, 180, 193);
-   
+    background:  hsl(215, 32%, 27%);
 }
 #ava{
    display: flex;
@@ -103,14 +106,15 @@ hr {
     width: 12%;
     border: 1px solid white;
     border-radius: 50%;
-
 }
 .creation{
-    /* border: 1px solid white; */
     margin-left: 15px;
     margin-top: 5px;
-    /* margin:5px ,15px, 0, 0; */
 }
 .name{
     color: white;
+    cursor: pointer;
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
 }
